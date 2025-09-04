@@ -43,7 +43,7 @@ export const Navbar = () => {
               Eventos
             </a>
             <a href="#loja" className="text-foreground hover:text-primary transition-colors">
-              Loja
+              Contato
             </a>
           </div>
 
@@ -108,11 +108,11 @@ export const Navbar = () => {
                 Eventos
               </a>
               <a
-                href="#loja"
+                href="#contato"
                 className="block text-foreground hover:text-primary transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Loja
+                Contato
               </a>
               
               {/* Mobile Social Links */}

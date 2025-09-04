@@ -18,7 +18,7 @@ export const Footer = () => {
     { name: 'Sobre', href: '#sobre' },
     { name: 'Notícias', href: '#noticias' },
     { name: 'Eventos', href: '#eventos' },
-    { name: 'Loja', href: '#loja' },
+    { name: 'Contato', href: '#contato' },
   ];
 
   return (
@@ -77,21 +77,21 @@ export const Footer = () => {
               </ul>
             </div>
 
-            {/* Community Info */}
+            {/* Contact Info */}
             <div>
-              <h3 className="font-bold text-lg mb-4 text-foreground">Comunidade</h3>
+              <h3 className="font-bold text-lg mb-4 text-foreground">Contato</h3>
               <div className="space-y-3">
                 <div>
-                  <p className="text-sm text-muted-foreground">Membros no Discord</p>
-                  <p className="text-lg font-bold text-primary">3.2K+</p>
+                  <p className="text-sm text-muted-foreground">Email</p>
+                  <p className="text-sm font-medium text-foreground">contato@canaldococa.com</p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Seguidores Total</p>
-                  <p className="text-lg font-bold text-primary">73.6K+</p>
+                  <p className="text-sm text-muted-foreground">Parcerias</p>
+                  <p className="text-sm font-medium text-foreground">parcerias@canaldococa.com</p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Lives por Semana</p>
-                  <p className="text-lg font-bold text-primary">5-7</p>
+                  <p className="text-sm text-muted-foreground">Horário das Lives</p>
+                  <p className="text-sm font-medium text-foreground">Segunda à Sexta - 20h</p>
                 </div>
               </div>
             </div>

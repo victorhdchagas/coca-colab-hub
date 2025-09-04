@@ -144,35 +144,8 @@ export const SocialSection = () => {
             })}
           </div>
 
-          {/* Featured Content/Community Stats */}
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Community Stats */}
-            <Card className="bg-gradient-card border-border/50 overflow-hidden relative">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-primary opacity-10 rounded-full -translate-y-16 translate-x-16"></div>
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-6">Estatísticas da Comunidade</h3>
-                <div className="space-y-4">
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Total de Seguidores</span>
-                    <span className="text-2xl font-bold text-primary">73.6K</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Membros do Discord</span>
-                    <span className="text-xl font-bold">3.2K</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Horas de Stream</span>
-                    <span className="text-xl font-bold">1.8K+</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Países Alcançados</span>
-                    <span className="text-xl font-bold">15</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Call to Action */}
+          {/* Call to Action */}
+          <div className="max-w-2xl mx-auto">
             <Card className="bg-gradient-primary border-primary/20 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
               <CardContent className="p-8 relative">
